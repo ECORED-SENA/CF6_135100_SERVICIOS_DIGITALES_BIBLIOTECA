@@ -236,7 +236,7 @@ export default {
       referencia:
         'Zappino, J. (2020). Manual de estadística básica para no estadísticos. INAP.',
       link:
-        'Https://Www.Argentina.Gob.Ar/Sites/Default/Files/Cuinap_13_2020_0.Pdf',
+        'https://www.argentina.gob.ar/sites/default/files/cuinap_13_2020_0.pdf',
     },
     {
       referencia:
@@ -313,8 +313,8 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Validación de diseño y contenido',
+        nombre: 'Maria Eugenia Mejia Lopez',
+        cargo: 'Validación de contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },

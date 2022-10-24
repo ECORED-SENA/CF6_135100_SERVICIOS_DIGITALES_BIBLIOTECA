@@ -166,8 +166,8 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img18.svg')})`}")
             .tarjeta-flip__contenido.p-4
-              h5.text-center Difusión por página web o intranet
-              p.text-center.mb-0 Según el tipo de información y nivel de detalle, la comunicación puede ofrecerse desde la página web de la biblioteca (pública). Asimismo, la información exclusiva de la institución, para efecto de sus comunicaciones, coordinación y desarrollo de actividades y resultados internos de sus procesos, se puede divulgar desde la intranet, a la cual solo tendrán acceso los empleados y personas vinculadas con la empresa (privada).
+              h5.text-center Difusión por página #[i web] o intranet
+              p.text-center.mb-0 Según el tipo de información y nivel de detalle, la comunicación puede ofrecerse desde la página #[i web] de la biblioteca (pública). Asimismo, la información exclusiva de la institución, para efecto de sus comunicaciones, coordinación y desarrollo de actividades y resultados internos de sus procesos, se puede divulgar desde la intranet, a la cual solo tendrán acceso los empleados y personas vinculadas con la empresa (privada).
       .col-sm-6.col-lg-3.mb-lg-0.px-1.mb-4(data-aos="fade-left")
         .tarjeta.tarjeta-flip.BGIMG09(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")

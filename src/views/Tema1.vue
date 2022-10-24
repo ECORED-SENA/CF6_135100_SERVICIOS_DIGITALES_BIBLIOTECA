@@ -71,9 +71,71 @@
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.1 Elaboración de tablas          
 
+    p En primera medida, todo análisis estadístico comienza con la obtención de datos de una población, bien sea en su totalidad de datos (censal), o por toma de muestra (de carácter muestral).
+
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in")
+          table
+            thead
+              tr
+                th(style="background-color: #4A4A4A; width: 40%;").text-white #[i Loreom ipsumat construm etrim kist]
+                th(style="background-color: #02A1A4; width: 20%;").text-white #[i Lorem ipsum dolor]
+                th(style="background-color: #B5C435; width: 20%;").text-white #[i Amister umarkl finish]
+                th(style="background-color: #04688A; width: 20%;").text-white #[i Gatolep odio un accums]
+                th(style="background-color: #004B62; width: 20%;").text-white #[i Tortores remus justicia]
+            tbody    
+              tr
+                td(style="background-color: #F3F3F3;") #[i Lorem dolor siamet]
+                td(style="background-color: #F3F3F3;").text-center 8.288
+                td(style="background-color: #F3F3F3;").text-center 123%
+                td(style="background-color: #F3F3F3;").text-center #[i Yes]
+                td(style="background-color: #F3F3F3;").text-center $89
+              tr
+                td #[i Consecter odio]
+                td.text-center 123
+                td.text-center 87%
+                td.text-center #[i No]
+                td.text-center $129
+              tr
+                td(style="background-color: #F3F3F3;") #[i Gatoque Accums]
+                td(style="background-color: #F3F3F3;").text-center 1.005
+                td(style="background-color: #F3F3F3;").text-center 12%
+                td(style="background-color: #F3F3F3;").text-center #[i No]
+                td(style="background-color: #F3F3F3;").text-center $99
+              tr
+                td #[i Sed hac enim rem]
+                td.text-center 56
+                td.text-center 69%
+                td.text-center N/A
+                td.text-center $199
+              tr
+                td(style="background-color: #F3F3F3;") #[i Rempus tortos just]
+                td(style="background-color: #F3F3F3;").text-center 5.554
+                td(style="background-color: #F3F3F3;").text-center 18%
+                td(style="background-color: #F3F3F3;").text-center #[i No]
+                td(style="background-color: #F3F3F3;").text-center $999
+              tr
+                td #[i Fcelisque sed morbi]
+                td.text-center 12.569
+                td.text-center 112%
+                td.text-center #[i No]
+                td.text-center $123
+              tr
+                td(style="background-color: #F3F3F3;") #[i Senectus urna mostum]
+                td(style="background-color: #F3F3F3;").text-center 779
+                td(style="background-color: #F3F3F3;").text-center 33%
+                td(style="background-color: #F3F3F3;").text-center N/A
+                td(style="background-color: #F3F3F3;").text-center $56
+              tr
+                td #[i Vesibu loris set murtil]
+                td.text-center 6.112
+                td.text-center 27%
+                td.text-center #[i Yes]
+                td.text-center $684
+          
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
-        p En primera medida, todo análisis estadístico comienza con la obtención de datos de una población, bien sea en su totalidad de datos (censal), o por toma de muestra (de carácter muestral).
         .row.align-items-center.BG04.mb-4
           .col-1.px-0
             img(src="@/assets/curso/temas/img02.png")
@@ -243,7 +305,7 @@
         img(src="@/assets/curso/tema1/img21.png")
       .col-lg-8(data-aos="fade-left")
         LineaTiempoD.color-primario
-          p.text-small(numero="1" titulo="Títulos") Identificar la información de datos de la población o de la muestra de datos para la cual se construirá la tabla de datos.
+          p.text-small(numero="1" titulo="Títulos") El número total de títulos de libros en idioma extranjero en la biblioteca es de 180 títulos.
           p.text-small(numero="2" titulo="Oferta de títulos") La oferta de títulos de libros en idioma extranjero contempla cuatro idiomas: inglés, francés, alemán e italiano.
           p.text-small(numero="3" titulo="Mayor oferta") La mayor oferta de títulos de libros en idioma extranjero está en idioma inglés, donde existen 78 títulos de libros.
           p.text-small(numero="4" titulo="Segunda mayor opción") La segunda opción de títulos de libros en idioma extranjero es en francés, con 47 títulos de libros.
@@ -255,9 +317,14 @@
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.4 Tabla de frecuencias para datos agrupados 
 
+    p Se utilizan o construyen tablas de frecuencias de datos agrupados en análisis estadísticos, <span style="color:#FD9827">#[strong cuando la variable objeto de estudio obedece a una variable cuantitativa]</span> que presenta grandes cantidades de valores.
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-8
+        img(src="@/assets/curso/tema1/img32.jpg")
+
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
-        p Se utilizan o construyen tablas de frecuencias de datos agrupados en análisis estadísticos, <span style="color:#FD9827">#[strong cuando la variable objeto de estudio obedece a una variable cuantitativa]</span> que presenta grandes cantidades de valores.
         .row.align-items-center.BG07.mb-4
           .col-1.px-0
             img(src="@/assets/curso/temas/img02.png")
@@ -499,11 +566,11 @@
       table
         thead
           tr
-            td(style="background-color: #31313C; width: 36%;").text-white Rango de precio de las adquisiciones
-            td(style="background-color: #31313C; width: 16%;").text-white Inversión (fx)
-            td(style="background-color: #31313C; width: 16%;").text-white % inversión h(x)
-            td(style="background-color: #31313C; width: 16%;").text-white Inversión acumulada F(x)
-            td(style="background-color: #31313C; width: 16%;").text-white % de inversión acumulada H(x)
+            td(style="background-color: #31313C; width: 36%;").text-center.text-white Rango de precio de las adquisiciones
+            td(style="background-color: #31313C; width: 16%;").text-center.text-white Inversión (fx)
+            td(style="background-color: #31313C; width: 16%;").text-center.text-white % inversión h(x)
+            td(style="background-color: #31313C; width: 16%;").text-center.text-white Inversión acumulada F(x)
+            td(style="background-color: #31313C; width: 16%;").text-center.text-white % de inversión acumulada H(x)
         tbody    
           tr
             td(style="background-color: #EBD0BC;") $32.000 - $41.285,71
