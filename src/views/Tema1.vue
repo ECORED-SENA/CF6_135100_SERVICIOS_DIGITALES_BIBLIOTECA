@@ -604,7 +604,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                 p <span style="color:#FD9827">#[strong Catálogo de servicios digitales en las bibliotecas]</span>.
-                  p.text-white Amplíe su saber en lo relacionado con Análisis de tablas con agrupación de datos, visualizando el contenido del
+                  p.text-white Amplíe su saber en lo relacionado con análisis de tablas con agrupación de datos, visualizando el contenido del
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_1_CatalogoDeServiciosDigitalesBibliotecas.pdf')" target="_blank")
                     span Descargar
