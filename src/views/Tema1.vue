@@ -72,67 +72,6 @@
       h2 1.1 Elaboración de tablas          
 
     p En primera medida, todo análisis estadístico comienza con la obtención de datos de una población, bien sea en su totalidad de datos (censal), o por toma de muestra (de carácter muestral).
-
-    .row.justify-content-center.mb-5
-      .col-lg-10
-        .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in")
-          table
-            thead
-              tr
-                th(style="background-color: #4A4A4A; width: 40%;").text-white #[i Loreom ipsumat construm etrim kist]
-                th(style="background-color: #02A1A4; width: 20%;").text-white #[i Lorem ipsum dolor]
-                th(style="background-color: #B5C435; width: 20%;").text-white #[i Amister umarkl finish]
-                th(style="background-color: #04688A; width: 20%;").text-white #[i Gatolep odio un accums]
-                th(style="background-color: #004B62; width: 20%;").text-white #[i Tortores remus justicia]
-            tbody    
-              tr
-                td(style="background-color: #F3F3F3;") #[i Lorem dolor siamet]
-                td(style="background-color: #F3F3F3;").text-center 8.288
-                td(style="background-color: #F3F3F3;").text-center 123%
-                td(style="background-color: #F3F3F3;").text-center #[i Yes]
-                td(style="background-color: #F3F3F3;").text-center $89
-              tr
-                td #[i Consecter odio]
-                td.text-center 123
-                td.text-center 87%
-                td.text-center #[i No]
-                td.text-center $129
-              tr
-                td(style="background-color: #F3F3F3;") #[i Gatoque Accums]
-                td(style="background-color: #F3F3F3;").text-center 1.005
-                td(style="background-color: #F3F3F3;").text-center 12%
-                td(style="background-color: #F3F3F3;").text-center #[i No]
-                td(style="background-color: #F3F3F3;").text-center $99
-              tr
-                td #[i Sed hac enim rem]
-                td.text-center 56
-                td.text-center 69%
-                td.text-center N/A
-                td.text-center $199
-              tr
-                td(style="background-color: #F3F3F3;") #[i Rempus tortos just]
-                td(style="background-color: #F3F3F3;").text-center 5.554
-                td(style="background-color: #F3F3F3;").text-center 18%
-                td(style="background-color: #F3F3F3;").text-center #[i No]
-                td(style="background-color: #F3F3F3;").text-center $999
-              tr
-                td #[i Fcelisque sed morbi]
-                td.text-center 12.569
-                td.text-center 112%
-                td.text-center #[i No]
-                td.text-center $123
-              tr
-                td(style="background-color: #F3F3F3;") #[i Senectus urna mostum]
-                td(style="background-color: #F3F3F3;").text-center 779
-                td(style="background-color: #F3F3F3;").text-center 33%
-                td(style="background-color: #F3F3F3;").text-center N/A
-                td(style="background-color: #F3F3F3;").text-center $56
-              tr
-                td #[i Vesibu loris set murtil]
-                td.text-center 6.112
-                td.text-center 27%
-                td.text-center #[i Yes]
-                td.text-center $684
           
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
@@ -318,10 +257,6 @@
       h2 1.4 Tabla de frecuencias para datos agrupados 
 
     p Se utilizan o construyen tablas de frecuencias de datos agrupados en análisis estadísticos, <span style="color:#FD9827">#[strong cuando la variable objeto de estudio obedece a una variable cuantitativa]</span> que presenta grandes cantidades de valores.
-
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-8
-        img(src="@/assets/curso/tema1/img32.jpg")
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
@@ -668,8 +603,8 @@
             .col.p-4
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
+                p <span style="color:#FD9827">#[strong Catálogo de servicios digitales en las bibliotecas]</span>.
                   p.text-white Amplíe su saber en lo relacionado con Análisis de tablas con agrupación de datos, visualizando el contenido del
-                  p <span style="color:#FD9827">#[strong Anexo_1_CatalogoDeServiciosDigitalesBibliotecas]</span>.
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_1_CatalogoDeServiciosDigitalesBibliotecas.pdf')" target="_blank")
                     span Descargar
