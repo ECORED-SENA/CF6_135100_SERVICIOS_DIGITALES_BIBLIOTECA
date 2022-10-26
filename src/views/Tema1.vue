@@ -24,9 +24,9 @@
 
     .row.justify-content-center.align-items-center.BGIMG01.p-4.mb-5
       .col-lg-5.col-10.mb-lg-0.mb-4(data-aos="flip-up")
-        img(src="@/assets/curso/tema1/img03.png")
+        img.vanish(src="@/assets/curso/tema1/img03.png")
       .col-lg-7(data-aos="fade-left")
-        El registro de datos denota un proceso en el cual hay que tener en cuenta el tipo de variable en que se expresan dichos datos, es decir:
+        p El registro de datos denota un proceso en el cual hay que tener en cuenta el tipo de variable en que se expresan dichos datos, es decir:
         ul.lista-ul--color.ms-4
           li
             <i class="fas fa-chevron-right" style="color:#FD9827"></i>
@@ -86,7 +86,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
-        img(src="@/assets/curso/tema1/img05.png")
+        img.vanish(src="@/assets/curso/tema1/img05.png")
       .col-lg-8(data-aos="fade-left")
         AcordionA(tipo="b" clase-tarjeta="BGR05")
           div(titulo="Presentación de datos")
@@ -102,84 +102,34 @@
           div(titulo="Segundas columnas")
             p.mb-0 En la segunda columna se presenta la cuantificación de esa variable, en un determinado estudio; lo que se denomina: frecuencias absolutas que no es más que el número de casos dividido entre el número total de casos de la muestra.
 
-    p Ahora, se invita a seguir el ejemplo que se muestra en la tabla 2; detallando cada aspecto mencionado en los botones 1, 2, 3 y 4 y registrar en la libreta personal de apuntes, los elementos más destacados.
-    
-    .BGM06.p-md-5.p-4.mb-4
-      .row.justify-content-center.align-items-center
-        .col-lg-10
-          .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
-            h5 Tabla 2
-            span Idioma de títulos de libros escritos, que reposan en la biblioteca - Hallazgos
-          figure.mb-4(data-aos="zoom-in")
-            img(src="@/assets/curso/tema1/img06.svg")
-          .row.justify-content-center.align-items-center.BGIMG02.p-4
-            .col-lg-6.col-10.mb-lg-0.mb-4(data-aos="fade-right")
-              img(src="@/assets/curso/tema1/img08.png")
-            .col-lg-6(data-aos="fade-left")
-              .row.justify-content-center.mb-2
-                .col-3
-                  .h1.text-center.boton.color-secundario.text-white.indicador__container(@click="modal1 = true")
-                    span 1
-                    .indicador--click(v-if="mostrarIndicador")
-                .col-3
-                  .h1.text-center.boton.color-secundario.text-white.indicador__container(@click="modal2 = true")
-                    span 2
-                .col-3
-                  .h1.text-center.boton.color-secundario.text-white.indicador__container(@click="modal3 = true")
-                    span 3
-                .col-3
-                  .h1.text-center.boton.color-secundario.text-white.indicador__container(@click="modal4 = true")
-                    span 4
-              table
-                thead
-                  tr
-                    td(style="background-color: #FC9622;").text-center Idioma
-                    td(style="background-color: #FC9622;").text-center Número de títulos
-                tbody
-                  tr
-                    td(style="background-color: #FFF;").text-center Francés
-                    td(style="background-color: #FFF;").text-center 47
-                  tr
-                    td(style="background-color: #F9EEE6;").text-center Italiano 
-                    td(style="background-color: #F9EEE6;").text-center 25
-                  tr
-                    td(style="background-color: #FFF;").text-center Inglés
-                    td(style="background-color: #FFF;").text-center 78
-                  tr
-                    td(style="background-color: #F9EEE6;").text-center Alemán 
-                    td(style="background-color: #F9EEE6;").text-center 30
-                  tr
-                    td(style="background-color: #FFF;").text-center Total
-                    td(style="background-color: #FFF;").text-center 180
+    p A continuación, se invita a revisar en detalle un ejemplo práctico sobre la elaboración de una tabla de títulos de libros, de diferentes idiomas que reposan en una biblioteca.
 
-    ModalA(:abrir-modal.sync="modal1")
-      .row.align-items-center
-        .col-lg-6.order-lg-1.order-2
-          .h4 Punto 1
-          p En una biblioteca se cuenta con inventario de libros escritos en idioma extranjero, sin embargo, se quiere tener la claridad de cuántos títulos por idioma se tienen.
-        .col-lg-6.order-lg-2.order-1.mb-lg-0.mb-4
-          img(src="@/assets/curso/tema1/img09.png")       
-    ModalA(:abrir-modal.sync="modal2")
-      .row.align-items-center
-        .col-lg-6.order-lg-1.order-2
-          .h4 Punto 2
-          p Cómo lo que se requiere es establecer el número de títulos en otros idiomas que posee la biblioteca, se levanta el censo de dicha colección de libros como lo muestra la taba.
-        .col-lg-6.order-lg-2.order-1.mb-lg-0.mb-4
-          img(src="@/assets/curso/tema1/img10.png")
-    ModalA(:abrir-modal.sync="modal3")
-      .row.align-items-center
-        .col-lg-6.order-lg-1.order-2
-          .h4 Punto 3
-          p Posteriormente, se procede a realizar la tabulación y conteo de los registros y datos de la población a partir del idioma en que están escritos para obtener el resultado real de títulos en determinado idioma.
-        .col-lg-6.order-lg-2.order-1.mb-lg-0.mb-4
-          img(src="@/assets/curso/tema1/img11.png")
-    ModalA(:abrir-modal.sync="modal4")
-      .row.align-items-center
-        .col-lg-6.order-lg-1.order-2
-          .h4 Punto 4
-          p Resultado de la tabulación y conteo:
-        .col-lg-6.order-lg-2.order-1.mb-lg-0.mb-4
-          img(src="@/assets/curso/tema1/img12.png")
+    .BGIMG11.p-4.mb-4(data-aos="zoom-in")
+      SlyderA(tipo="b")
+        .row.align-items-center
+          .col-lg-6.order-lg-1.order-2
+            .h4 Punto 1
+            p En una biblioteca se cuenta con inventario de libros escritos en idioma extranjero, sin embargo, se quiere tener la claridad de cuántos títulos por idioma se tienen.
+          .col-lg-6.order-lg-2.order-1.mb-lg-0.mb-4
+            img(src="@/assets/curso/tema1/img09.png")       
+        .row.align-items-center
+          .col-lg-6.order-lg-1.order-2
+            .h4 Punto 2
+            p Cómo lo que se requiere es establecer el número de títulos en otros idiomas que posee la biblioteca, se levanta el censo de dicha colección de libros como lo muestra la taba.
+          .col-lg-6.order-lg-2.order-1.mb-lg-0.mb-4
+            img(src="@/assets/curso/tema1/img10.png")
+        .row.align-items-center
+          .col-lg-6.order-lg-1.order-2
+            .h4 Punto 3
+            p Posteriormente, se procede a realizar la tabulación y conteo de los registros y datos de la población a partir del idioma en que están escritos para obtener el resultado real de títulos en determinado idioma.
+          .col-lg-6.order-lg-2.order-1.mb-lg-0.mb-4
+            img(src="@/assets/curso/tema1/img11.png")
+        .row.align-items-center
+          .col-lg-6.order-lg-1.order-2
+            .h4 Punto 4
+            p Por último, se involucra una variable y suele repetirse con cada objeto de estudio, en este caso, corresponde al  número de libros que hay por cada idioma.
+          .col-lg-6.order-lg-2.order-1.mb-lg-0.mb-4
+            img(src="@/assets/curso/tema1/img12.png")
 
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -194,35 +144,16 @@
           .col-11.p-3
             p.mb-0 Esto quiere decir que se le identifica, a cada tipo de dato de la variable, <span style="color:#785549">#[strong la frecuencia de ocurrencia]</span> o, en otras palabras, <span style="color:#785549">#[strong el comportamiento de frecuencia absoluta]</span> de la variable (fx), lo que facilita, posteriormente, determinar la frecuencia absoluta acumulada (Fx).
       .col-lg-4.BG08(data-aos="flip-up")
-        img(src="@/assets/curso/tema1/img14.png")
+        img(src="@/assets/curso/tema1/img14.svg")
       .col-lg-4.BGIMG03.p-4.py-5(data-aos="fade-left")
           .h4 <span style="color:#FD9827">Frecuencia relativa</span>
           p.text-white.mb-0 La frecuencia relativa (hx) es la proporción de los datos de la variable, respecto del total de la muestra o población. Mientras que la frecuencia relativa acumulada (Hx), es el porcentaje acumulado de las frecuencias relativas.
 
-    p Para la construcción de la tabla de frecuencias, se deben seguir algunas recomendaciones, como se muestra a continuación:
+    p.mb-5 Para la construcción de la tabla de frecuencias, se deben seguir algunas recomendaciones, como se muestra a continuación:
 
-    .row.justify-content-center.mb-4
-      .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
-        img(src="@/assets/curso/tema1/img16.png")
-      .col-lg-8(data-aos="fade-left")
-        LineaTiempoD.color-primario
-          p.text-small(numero="1" titulo="Identificar información") Identificar la información de datos de la población o de la muestra de datos para la cual se construirá la tabla de datos.
-          p.text-small(numero="2" titulo="Posibilidades") En la primera columna, se escriben las posibilidades que presenta la variable de datos. Por ejemplo, si se trata de la cantidad de títulos de libros en idioma extranjero, se cita en la primera columna los idiomas de los libros.
-          p.text-small(numero="3" titulo="Repetición de datos") En la segunda columna, se registra la cantidad de veces que se repite el dato que varía. Por ejemplo, el idioma en que viene cada título de libros (no el idioma de cada unidad de libro porque de un título pueden existir varios ejemplares), lo que se denomina frecuencia absoluta f(x). Esta información se ordena descendentemente, de mayor a menor, respecto de su cantidad de veces.
-          .row(numero="4" titulo="Frecuencia relativa")
-            p En la tercera columna, se determina la <span style="color:#785549">#[strong frecuencia relativa]</span>, que es el porcentaje que representa la frecuencia absoluta, respecto del total general. Por ejemplo, el porcentaje de la cantidad de títulos por cada idioma, respecto del total general de títulos.
-            p Este porcentaje se calcula aplicando una regla de tres simple:
-            figure.mb-4
-              img(src="@/assets/curso/tema1/img17.svg")
-            p Aplicando el concepto de la regla de tres simple se obtiene que: (47*100) / 180
-            figure
-              img(src="@/assets/curso/tema1/img18.svg")
-          p.text-small(numero="5" titulo="Frecuencia absoluta acumulada") En la cuarta columna se determina la <span style="color:#785549">#[strong frecuencia absoluta acumulada F(x)]</span> para esto se suma el número de títulos de libros hallados por cada idioma extranjero, es decir, se van agregando las frecuencias absolutas. Por ejemplo, por cada tipo de idioma se van sumando el número de títulos de cada idioma. Esto facilitará el análisis de la información.
-          p.text-small(numero="6" titulo="Frecuencia relativa acumulada") En la quinta columna se determina la <span style="color:#785549">#[strong frecuencia relativa acumulada]</span> que es la proporción acumulada de la frecuencia relativa, es decir, el equivalente proporcional del número de datos acumulados.
-
-    p Se sugiere detallar la aplicación los pasos anteriormente mencionados en el esquema infográfico que se presenta enseguida:
-    .BGM06.p-md-5.p-4.mb-4(data-aos="zoom-in")
-      img(src="@/assets/curso/tema1/img19.svg")
+    figure.mb-4(data-aos="zoom-in")
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -241,7 +172,7 @@
 
     .row.justify-content-center.mb-4
       .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
-        img(src="@/assets/curso/tema1/img21.png")
+        img.vanish(src="@/assets/curso/tema1/img21.png")
       .col-lg-8(data-aos="fade-left")
         LineaTiempoD.color-primario
           p.text-small(numero="1" titulo="Títulos") El número total de títulos de libros en idioma extranjero en la biblioteca es de 180 títulos.
@@ -267,12 +198,12 @@
             p.mb-0 Cuando se trata de una variable continua se aconseja agrupar los diferentes datos de la variable, por intervalos de igual amplitud, donde a cada intervalo se le denomina clase (Zappino, 2020). 
         p.mb-0 Existen algunas recomendaciones importantes para la construcción de este tipo de tablas, a saber:
       .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-        img(src="@/assets/curso/tema1/img22.png")
+        img.vanish(src="@/assets/curso/tema1/img22.png")
 
     .BGIMG04.p-4.mb-4
       .row.justify-content-center.mb-4
         .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
-          img(src="@/assets/curso/tema1/img24.png")
+          img.vanish(src="@/assets/curso/tema1/img24.png")
         .col-lg-8(data-aos="fade-left")
           .tarjeta.tarjeta--blanca.p-4
             SlyderA(tipo="b")
@@ -344,7 +275,7 @@
                     p.mb-0 Columna 7: frecuencia absoluta acumulada F(x)
                     p.mb-0 Columna 8: frecuencia relativa acumulada H(x)
 
-    p En la siguiente tabla se presenta la información de inversiones, en material bibliográfico, para el mes de junio de una biblioteca que adquirió varios ejemplares. Se recomienda prestar atención a los detalles de esa compra y al nivel de <span style="color:#FD9827">#[strong rango de inversión]</span> que predominó en la misma. 
+    p.mb-5 En la siguiente tabla se presenta la información de inversiones, en material bibliográfico, para el mes de junio de una biblioteca que adquirió varios ejemplares. Se recomienda prestar atención a los detalles de esa compra y al nivel de <span style="color:#FD9827">#[strong rango de inversión]</span> que predominó en la misma. 
 
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
       h5 Tabla 3
@@ -481,17 +412,99 @@
         p.text-white.text-center 2
         p.text-white.text-center Mc =  36.643
 
-    p Una vez analizada la tabla inicial con la información de inversión de la biblioteca y de haber seguido los pasos correspondientes, se podrá generar la <span style="color:#FD9827">#[strong tabla de frecuencias de las inversiones]</span> de material bibliográfico para el mes de junio, la cual deberá resultar así:
+    p.mb-5 Una vez analizada la tabla inicial con la información de inversión de la biblioteca y de haber seguido los pasos correspondientes, se podrá generar la <span style="color:#FD9827">#[strong tabla de frecuencias de las inversiones]</span> de material bibliográfico para el mes de junio, la cual deberá resultar así:
 
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
       h5 Tabla 4
       span Tabla de frecuencias de las inversiones de material bibliográfico, para el mes de junio en la biblioteca
     
-    .row.justify-content-center.mb-5(data-aos="zoom-in")
-      .col-lg-10
-        img(src="@/assets/curso/tema1/img30.svg")
+    .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in")
+      table
+        thead
+          tr
+            td(style="background-color: #505059;").text-center.text-white Clase
+            td(style="background-color: #505059;").text-center.text-white lím. (inf.)
+            td(style="background-color: #505059;").text-center.text-white lím. (sup.)
+            td(style="background-color: #505059;").text-center.text-white Marca de clase
+            td(style="background-color: #505059;").text-center.text-white f(x)
+            td(style="background-color: #505059;").text-center.text-white h(x)
+            td(style="background-color: #505059;").text-center.text-white F(x)
+            td(style="background-color: #505059;").text-center.text-white H(x)
+        tbody    
+          tr
+            td(style="background-color: #EEE6DF;").text-center 1
+            td(style="background-color: #EEE6DF;").text-center <span style="background-color: #F3F0ED; border: 3px solid #F5A751; border-radius: 100px; padding: 2px">$32.000,00</span>
+            td(style="background-color: #EEE6DF;").text-center $41.285,71
+            td(style="background-color: #EEE6DF;").text-center $36.643
+            td(style="background-color: #EEE6DF;").text-center 4
+            td(style="background-color: #EEE6DF;").text-center 8,00%
+            td(style="background-color: #EEE6DF;").text-center 4
+            td(style="background-color: #EEE6DF;").text-center 8,00%
+          tr
+            td(style="background-color: #E7D1C1;").text-center 2
+            td(style="background-color: #E7D1C1;").text-center $41.285,72
+            td(style="background-color: #E7D1C1;").text-center $50.571,44
+            td(style="background-color: #E7D1C1;").text-center $45.929
+            td(style="background-color: #E7D1C1;").text-center 5
+            td(style="background-color: #E7D1C1;").text-center 10,00%
+            td(style="background-color: #E7D1C1;").text-center 9
+            td(style="background-color: #E7D1C1;").text-center 18,00%
+          tr
+            td(style="background-color: #EEE6DF;").text-center 3
+            td(style="background-color: #EEE6DF;").text-center $50.571,45
+            td(style="background-color: #EEE6DF;").text-center $59.857,16
+            td(style="background-color: #EEE6DF;").text-center $55.214
+            td(style="background-color: #EEE6DF;").text-center 6
+            td(style="background-color: #EEE6DF;").text-center 12,00%
+            td(style="background-color: #EEE6DF;").text-center 15
+            td(style="background-color: #EEE6DF;").text-center 30,00%
+          tr
+            td(style="background-color: #E7D1C1;").text-center 4
+            td(style="background-color: #E7D1C1;").text-center $59.857,17
+            td(style="background-color: #E7D1C1;").text-center $69.142,89
+            td(style="background-color: #E7D1C1;").text-center $64.500
+            td(style="background-color: #E7D1C1;").text-center <span style="background-color: #F3F0ED; border: 3px solid #F5A751; border-radius: 100px; padding: 2px">11</span>
+            td(style="background-color: #E7D1C1;").text-center <span style="background-color: #F3F0ED; border: 3px solid #F5A751; border-radius: 100px; padding: 2px">22,00%</span>
+            td(style="background-color: #E7D1C1;").text-center 26
+            td(style="background-color: #E7D1C1;").text-center 52,00%
+          tr
+            td(style="background-color: #EEE6DF;").text-center 5
+            td(style="background-color: #EEE6DF;").text-center $69.142,90
+            td(style="background-color: #EEE6DF;").text-center $78.428,61
+            td(style="background-color: #EEE6DF;").text-center $73.786
+            td(style="background-color: #EEE6DF;").text-center <span style="background-color: #F3F0ED; border: 3px solid #F5A751; border-radius: 100px; padding: 2px">15</span>
+            td(style="background-color: #EEE6DF;").text-center <span style="background-color: #F3F0ED; border: 3px solid #F5A751; border-radius: 100px; padding: 2px">30,00%</span>
+            td(style="background-color: #EEE6DF;").text-center 41
+            td(style="background-color: #EEE6DF;").text-center 82,00%
+          tr
+            td(style="background-color: #E7D1C1;").text-center 6
+            td(style="background-color: #E7D1C1;").text-center $78.428,62
+            td(style="background-color: #E7D1C1;").text-center $87.714,34
+            td(style="background-color: #E7D1C1;").text-center $83.071
+            td(style="background-color: #E7D1C1;").text-center 5
+            td(style="background-color: #E7D1C1;").text-center 10,00%
+            td(style="background-color: #E7D1C1;").text-center 46
+            td(style="background-color: #E7D1C1;").text-center 92,00%
+          tr
+            td(style="background-color: #EEE6DF;").text-center 7
+            td(style="background-color: #EEE6DF;").text-center $87.714,35
+            td(style="background-color: #EEE6DF;").text-center <span style="background-color: #F3F0ED; border: 3px solid #F5A751; border-radius: 100px; padding: 2px">$97.000,06</span>
+            td(style="background-color: #EEE6DF;").text-center $92.357
+            td(style="background-color: #EEE6DF;").text-center 4
+            td(style="background-color: #EEE6DF;").text-center 8,00%
+            td(style="background-color: #EEE6DF;").text-center <span style="background-color: #F3F0ED; border: 3px solid #F5A751; border-radius: 100px; padding: 2px">50</span>
+            td(style="background-color: #EEE6DF;").text-center <span style="background-color: #F3F0ED; border: 3px solid #F5A751; border-radius: 100px; padding: 2px">100,00%</span>
+          tr
+            td(style="background-color: #CEB6A3;").text-center
+            td(style="background-color: #CEB6A3;").text-center 
+            td(style="background-color: #CEB6A3;").text-center 
+            td(style="background-color: #CEB6A3;").text-center Total
+            td(style="background-color: #CEB6A3;").text-center <span style="background-color: #F3F0ED; border: 3px solid #F5A751; border-radius: 100px; padding: 2px">50</span>
+            td(style="background-color: #CEB6A3;").text-center <span style="background-color: #F3F0ED; border: 3px solid #F5A751; border-radius: 100px; padding: 2px">100,00%</span>
+            td(style="background-color: #CEB6A3;").text-center 
+            td(style="background-color: #CEB6A3;").text-center
     
-    p En consecuencia, se podrá generar la <span style="color:#FD9827">#[strong tabla de descripción del nivel de inversión]</span>, en dinero, dada la adquisición de material bibliográfico de la biblioteca.
+    p.mb-5 En consecuencia, se podrá generar la <span style="color:#FD9827">#[strong tabla de descripción del nivel de inversión]</span>, en dinero, dada la adquisición de material bibliográfico de la biblioteca.
 
     .titulo-sexto.color-acento-contenido.mb-4(data-aos="fade-right")
       h5 Tabla 5
@@ -604,13 +617,13 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                 p <span style="color:#FD9827">#[strong Catálogo de servicios digitales en las bibliotecas]</span>.
-                  p.text-white Amplíe su saber en lo relacionado con análisis de tablas con agrupación de datos, visualizando el contenido del
+                  p.text-white Amplíe su saber en lo relacionado con análisis de tablas con agrupación de datos.
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_1_CatalogoDeServiciosDigitalesBibliotecas.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
         .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-          img(src="@/assets/curso/tema1/img31.png")
+          img.vanish(src="@/assets/curso/tema1/img31.png")
     
 
 

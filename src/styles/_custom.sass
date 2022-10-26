@@ -57,8 +57,8 @@
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
   background-color: #C0C942
   @media (max-width: $bp-max-xs)
-    width: 40px
-    height: 40px
+    width: 25px
+    height: 25px
   
 .slyder-a__bullets__item
   @media (max-width: $bp-max-xs)
@@ -77,6 +77,9 @@
   background-color: #E7E7E8
 
 .BGR05
+  background-color: #D6DC88
+
+.BGR05.acordion__activo
   background-color: #ECEDC4
 
 .BGM06
@@ -88,7 +91,7 @@
 .BG08
   background-color: #FFCA68
 
-.BG09, .tarjeta--gris
+.BG09
   background-color: #DDD4D1
 
 .BGR10
@@ -107,7 +110,10 @@
 .BG14
   background-color: #FBA442
 
-.BGR01, .BGIMG02, .BGR3, .BGR05, .BGIMG05, .BGIMG07, .BGR10, .BGR11
+.BGM15
+  background: linear-gradient(to bottom, #EFEFF0, #F7F8F7,#F7F7F7)
+
+.BGR01, .BGIMG02, .BGR3, .BGR05, .BGIMG05, .BGIMG07, .BGR10, .BGIMG10, .BGR11
   border-radius: 15px
 
 .BGIMG01
@@ -123,6 +129,9 @@
   background-image: url("../assets/curso/tema1/img23.png")
 
 .BGIMG05
+  background-position: top-center
+  background-size: 100% 100%
+  background-repeat: no-repeat
   background-image: url("../assets/curso/tema1/img29.png")
   height: 364px
   @media (max-width: $bp-max-md)
@@ -142,15 +151,41 @@
 .BGIMG09
   background-image: url("../assets/curso/tema3/img21.png")
 
+.BGIMG10
+  background-image: url("../assets/curso/intro/img02.png")
+
+.BGIMG11
+  background-image: url("../assets/curso/tema1/img32.png")
+
 .modal-a__content
   background-image: url("../assets/curso/tema1/img13.png")
 
-.BGIMG01, .BGIMG02, .BGIMG03, .BGIMG04, .BGIMG05, .BGIMG07, .BGIMG08, .BGIMG09, .modal-a__content
+.BGIMG01, .BGIMG02, .BGIMG03, .BGIMG04, .BGIMG07, .BGIMG08, .BGIMG09, .BGIMG10, .BGIMG11, .modal-a__content
   background-size: cover 
   background-repeat: no-repeat
   background-position: center
 
-.BGIMG06
+.BGIMG06, .BGM06, .BGM15
   margin-inline: -3.2rem !important
   @media (max-width: $bp-max-sm)
     margin-inline: -1.4rem !important
+  
+.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__content .tarjeta tarjeta--gris
+  background-color: #FBA442
+
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title, .linea-tiempo-d__item__content__slot
+  background-color: #DDD4D1
+
+.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
+  border-radius: 15px 15px 0 0
+
+.linea-tiempo-d__item__content__slot
+  border-radius: 0 0 15px 15px
+
+.vanish
+  @media (max-width: $bp-max-md)
+    width: 0%
+
+.BGIMG08, .BGIMG09
+  @media (max-width: $bp-max-lg)
+    height: 500px

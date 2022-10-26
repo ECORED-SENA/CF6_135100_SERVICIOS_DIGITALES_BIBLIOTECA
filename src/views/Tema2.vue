@@ -7,10 +7,10 @@
         span 2
       h1 Gráficas y tipos de gráficas
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-7.order-lg-1.order-2(data-aos="fade-right")
         p Se denomina gráfica a toda representación visual que permite evidenciar el comportamiento e interpretación de los datos de una variable, generalmente numérica.
-        .row.align-items-center.BG07.mb-4
+        .row.align-items-center.BG07
           .col-1.px-0
             img(src="@/assets/curso/temas/img02.png")
           .col-11.p-3
