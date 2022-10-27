@@ -23,8 +23,8 @@
         img(src="@/assets/curso/tema1/img01.png")
 
     .row.justify-content-center.align-items-center.BGIMG01.p-4.mb-5
-      .col-lg-5.col-10.mb-lg-0.mb-4(data-aos="flip-up")
-        img.vanish(src="@/assets/curso/tema1/img03.png")
+      .col-lg-5.col-10.d-none.d-lg-flex.mb-lg-0.mb-4(data-aos="flip-up")
+        img(src="@/assets/curso/tema1/img03.png")
       .col-lg-7(data-aos="fade-left")
         p El registro de datos denota un proceso en el cual hay que tener en cuenta el tipo de variable en que se expresan dichos datos, es decir:
         ul.lista-ul--color.ms-4
@@ -85,8 +85,8 @@
         img(src="@/assets/curso/tema1/img04.png")
 
     .row.justify-content-center.mb-5
-      .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
-        img.vanish(src="@/assets/curso/tema1/img05.png")
+      .col-lg-4.col-8.d-none.d-lg-flex.mb-lg-0.mb-4(data-aos="fade-right")
+        img(src="@/assets/curso/tema1/img05.png")
       .col-lg-8(data-aos="fade-left")
         AcordionA(tipo="b" clase-tarjeta="BGR05")
           div(titulo="Presentación de datos")
@@ -104,29 +104,29 @@
 
     p A continuación, se invita a revisar en detalle un ejemplo práctico sobre la elaboración de una tabla de títulos de libros, de diferentes idiomas que reposan en una biblioteca.
 
-    .BGIMG11.p-4.mb-4(data-aos="zoom-in")
+    .BGIMG11.p-5.mb-4(data-aos="zoom-in")
       SlyderA(tipo="b")
         .row.align-items-center
           .col-lg-6.order-lg-1.order-2
-            .h4 Punto 1
-            p En una biblioteca se cuenta con inventario de libros escritos en idioma extranjero, sin embargo, se quiere tener la claridad de cuántos títulos por idioma se tienen.
+            .h4 Inventario de libros
+            p En una biblioteca se cuenta con inventario de libros en idioma extranjero, sin embargo, se quiere tener la claridad de cuántos títulos por idioma se tienen.
           .col-lg-6.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema1/img09.png")       
         .row.align-items-center
           .col-lg-6.order-lg-1.order-2
-            .h4 Punto 2
-            p Cómo lo que se requiere es establecer el número de títulos en otros idiomas que posee la biblioteca, se levanta el censo de dicha colección de libros como lo muestra la taba.
+            .h4 Clasificación de la información
+            p Como lo que se requiere es establecer el número de títulos en otros idiomas que posee la biblioteca, se levanta el censo de dicha colección de libros como lo muestra la tabla.
           .col-lg-6.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src="@/assets/curso/tema1/img10.png")
+            img(src="@/assets/curso/tema1/img10.svg")
         .row.align-items-center
           .col-lg-6.order-lg-1.order-2
-            .h4 Punto 3
-            p Posteriormente, se procede a realizar la tabulación y conteo de los registros y datos de la población a partir del idioma en que están escritos para obtener el resultado real de títulos en determinado idioma.
+            .h4 Tabulación de la información
+            p Posteriormente, se procede a realizar la tabulación y conteo de los registros y datos de la población, a partir del idioma en que están escritos para obtener el resultado real de títulos, en determinado idioma.
           .col-lg-6.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema1/img11.png")
         .row.align-items-center
           .col-lg-6.order-lg-1.order-2
-            .h4 Punto 4
+            .h4 Resultado del conteo y tabulación de la información
             p Por último, se involucra una variable y suele repetirse con cada objeto de estudio, en este caso, corresponde al  número de libros que hay por cada idioma.
           .col-lg-6.order-lg-2.order-1.mb-lg-0.mb-4
             img(src="@/assets/curso/tema1/img12.png")
@@ -135,7 +135,7 @@
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.2 Tabla de frecuencias
     
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-4(data-aos="fade-right")
         p La tabla de frecuencias muestra, de forma ordenada y descendentemente, un conjunto de datos estadísticos donde, por cada tipo de dato de la variable, se contabiliza el número de veces que se repite cada uno de ellos.
         .row.align-items-center.BG07
@@ -143,8 +143,9 @@
             img(src="@/assets/curso/temas/img02.png")
           .col-11.p-3
             p.mb-0 Esto quiere decir que se le identifica, a cada tipo de dato de la variable, <span style="color:#785549">#[strong la frecuencia de ocurrencia]</span> o, en otras palabras, <span style="color:#785549">#[strong el comportamiento de frecuencia absoluta]</span> de la variable (fx), lo que facilita, posteriormente, determinar la frecuencia absoluta acumulada (Fx).
-      .col-lg-4.BG08(data-aos="flip-up")
-        img(src="@/assets/curso/tema1/img14.svg")
+      .col-lg-4.BG08.pt-lg-5.pt-xl-0(data-aos="flip-up")
+        figure.mt-lg-4.mt-xl-0
+          img(src="@/assets/curso/tema1/img14.svg")
       .col-lg-4.BGIMG03.p-4.py-5(data-aos="fade-left")
           .h4 <span style="color:#FD9827">Frecuencia relativa</span>
           p.text-white.mb-0 La frecuencia relativa (hx) es la proporción de los datos de la variable, respecto del total de la muestra o población. Mientras que la frecuencia relativa acumulada (Hx), es el porcentaje acumulado de las frecuencias relativas.
@@ -171,8 +172,8 @@
         img(src="@/assets/curso/tema1/img20.png")
 
     .row.justify-content-center.mb-4
-      .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
-        img.vanish(src="@/assets/curso/tema1/img21.png")
+      .col-lg-4.col-8.d-none.d-lg-flex.mb-lg-0.mb-4(data-aos="fade-right")
+        img(src="@/assets/curso/tema1/img21.png")
       .col-lg-8(data-aos="fade-left")
         LineaTiempoD.color-primario
           p.text-small(numero="1" titulo="Títulos") El número total de títulos de libros en idioma extranjero en la biblioteca es de 180 títulos.
@@ -197,13 +198,13 @@
           .col-11.p-3
             p.mb-0 Cuando se trata de una variable continua se aconseja agrupar los diferentes datos de la variable, por intervalos de igual amplitud, donde a cada intervalo se le denomina clase (Zappino, 2020). 
         p.mb-0 Existen algunas recomendaciones importantes para la construcción de este tipo de tablas, a saber:
-      .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-        img.vanish(src="@/assets/curso/tema1/img22.png")
+      .col-lg-5.col-10.d-none.d-lg-flex.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
+        img(src="@/assets/curso/tema1/img22.png")
 
     .BGIMG04.p-4.mb-4
       .row.justify-content-center.mb-4
-        .col-lg-4.col-8.mb-lg-0.mb-4(data-aos="fade-right")
-          img.vanish(src="@/assets/curso/tema1/img24.png")
+        .col-lg-4.col-8.d-none.d-lg-flex.mb-lg-0.mb-4(data-aos="fade-right")
+          img(src="@/assets/curso/tema1/img24.png")
         .col-lg-8(data-aos="fade-left")
           .tarjeta.tarjeta--blanca.p-4
             SlyderA(tipo="b")
@@ -360,7 +361,7 @@
         .row.justify-content-center.mb-4
           .col-lg-3.col-6
             img(src="@/assets/curso/tema1/img28.png")
-        h4.text-white.text-center Identifique valores
+        h4.text-white.text-center Identifique valores <br>
         p.text-white.text-center Identificar el valor máximo y el valor mínimo del conjunto de datos de la población o muestra a analizar.
         p.text-white.text-center Valor máximo de los datos - X(máx.) = $97.000 por un libro.
         p.text-white.text-center.mb-0 Valor mínimo de los datos X(mín.) = $32.000 por un libro.
@@ -368,7 +369,7 @@
         .row.justify-content-center.mb-4
           .col-lg-3.col-6
             img(src="@/assets/curso/tema1/img28.png")
-        h4.text-white.text-center Calcule el recorrido
+        h4.text-white.text-center Calcule el recorrido <br>
         p.text-white.text-center Calcular el rango o recorrido (R) de los datos, que es el valor o magnitud de la variable que definirá cada clase: 
         p.text-white.text-center R = $97.000 - $32.000
         p.text-white.text-center R = $65.000
@@ -376,7 +377,7 @@
         .row.justify-content-center.mb-4
           .col-lg-3.col-6
             img(src="@/assets/curso/tema1/img28.png")
-        h4.text-white.text-center Halle intervalos
+        h4.text-white.text-center Halle intervalos <br>
         p.text-white.text-center.mb-0 Hallar el número de clases o intervalos (K): 
         p.text-white.text-center.mb-0 K = 1 + 3,322 * log (50)
         p.text-white.text-center.mb-0 K = 6,64
@@ -388,7 +389,7 @@
         .row.justify-content-center.mb-4
           .col-lg-3.col-6
             img(src="@/assets/curso/tema1/img28.png")
-        h4.text-white.text-center Fije amplitud
+        h4.text-white.text-center Fije amplitud <br>
         p.text-white.text-center Determinar la amplitud del intervalo o de la clase (1): 
         p.text-white.text-center A = 65.000 / 7
         p.text-white.text-center  A = 9.285,71
@@ -396,7 +397,7 @@
         .row.justify-content-center.mb-4
           .col-lg-3.col-6
             img(src="@/assets/curso/tema1/img28.png")
-        h4.text-white.text-center Establezca límites inferior y superior
+        h4.text-white.text-center Establezca límites inferior y superior <br>
         p.text-white.text-center.mb-0 Los cuales corresponden a los valores inicial y final de cada clase o agrupación de datos:
         p.text-white.text-center.mb-0 El límite superior de clase 1 = límite inferior + A.
         p.text-white.text-center.mb-0 El límite superior de clase 1 = 32.000 + 9.285,71.
@@ -406,7 +407,7 @@
         .row.justify-content-center.mb-4
           .col-lg-3.col-6
             img(src="@/assets/curso/tema1/img28.png")
-        h4.text-white.text-center Determine marcas de clase
+        h4.text-white.text-center Determine marcas de clase <br>
         p.text-white.text-center Marcas de clase (MC), es el punto medio de la clase:
         p.text-white.text-center.mb-0 Mc = <u>41.285,71- 32.000</u>
         p.text-white.text-center 2
@@ -516,7 +517,7 @@
           tr
             td(style="background-color: #31313C; width: 36%;").text-center.text-white Rango de precio de las adquisiciones
             td(style="background-color: #31313C; width: 16%;").text-center.text-white Inversión (fx)
-            td(style="background-color: #31313C; width: 16%;").text-center.text-white % inversión h(x)
+            td(style="background-color: #31313C; width: 16%;").text-center.text-white % de inversión h(x)
             td(style="background-color: #31313C; width: 16%;").text-center.text-white Inversión acumulada F(x)
             td(style="background-color: #31313C; width: 16%;").text-center.text-white % de inversión acumulada H(x)
         tbody    
@@ -616,14 +617,14 @@
             .col.p-4
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                p <span style="color:#FD9827">#[strong Catálogo de servicios digitales en las bibliotecas]</span>.
+                  p <span style="color:#FD9827">#[strong Catálogo de servicios digitales en las bibliotecas]</span>.
                   p.text-white Amplíe su saber en lo relacionado con análisis de tablas con agrupación de datos.
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_1_CatalogoDeServiciosDigitalesBibliotecas.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
-        .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
-          img.vanish(src="@/assets/curso/tema1/img31.png")
+        .col-lg-5.col-10.d-none.d-lg-flex.order-lg-2.order-1.mb-lg-0.mb-4(data-aos="fade-left")
+          img(src="@/assets/curso/tema1/img31.png")
     
 
 

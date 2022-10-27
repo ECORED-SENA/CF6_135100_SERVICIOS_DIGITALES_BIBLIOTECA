@@ -62,7 +62,9 @@
   
 .slyder-a__bullets__item
   @media (max-width: $bp-max-xs)
-    margin: 0 7px
+    width: 7px
+    height: 7px
+    margin: 0 5px
   
 .BGR01
   background-color: #F5E8DF
@@ -113,8 +115,17 @@
 .BGM15
   background: linear-gradient(to bottom, #EFEFF0, #F7F8F7,#F7F7F7)
 
-.BGR01, .BGIMG02, .BGR3, .BGR05, .BGIMG05, .BGIMG07, .BGR10, .BGIMG10, .BGR11
+.BGR01, .BGIMG02, .BGR3, .BGR05, .BGIMG05, .BGIMG07, .BGR10, .BGIMG10, .BGR11, .BGIMG11
   border-radius: 15px
+
+.BGIMG03, .BG08
+  height: 373px
+  @media (max-width: $bp-max-xl)
+    height: 336px
+  @media (max-width: $bp-max-lg)
+    height: 409px
+  @media (max-width: $bp-max-md)
+    height: 100%
 
 .BGIMG01
   background-image: url("../assets/curso/tema1/img02.png")
@@ -130,7 +141,7 @@
 
 .BGIMG05
   background-position: top-center
-  background-size: 100% 100%
+  background-size: cover
   background-repeat: no-repeat
   background-image: url("../assets/curso/tema1/img29.png")
   height: 364px
@@ -181,10 +192,6 @@
 
 .linea-tiempo-d__item__content__slot
   border-radius: 0 0 15px 15px
-
-.vanish
-  @media (max-width: $bp-max-md)
-    width: 0%
 
 .BGIMG08, .BGIMG09
   @media (max-width: $bp-max-lg)

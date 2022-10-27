@@ -144,51 +144,39 @@
 
     p En la siguiente infografía se presentan las <span style="color:#FD9827">#[strong características de las técnicas de presentación y compilación de información que pueden ser usados en la biblioteca o cualquier organización o proyecto]</span>; se sugiere registrar en la libreta de apuntes los elementos más destacados.
 
-    .row.justify-content-center.mb-5
-      .col-xl-3.col-sm-6.col-8.mb-xl-0.px-1.mb-4(data-aos="fade-right")
-        .tarjeta.tarjeta-flip.BGIMG08(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img16.png')})`}")
-            .tarjeta-flip__contenido.p-4
-              h5.text-center Informes
-              p.text-center.mb-0 Todo informe debe presentar diferentes contenidos o capítulos, dependiendo del tipo de información por comunicar, indicando la metodología o proceso al cual refiere y si será un documento al público en general o para algunos usuarios, lo que es potestativo de la biblioteca por ser esta de carácter discrecional y fundamental para la toma de decisiones del futuro inmediato.
-      .col-xl-3.col-sm-6.col-8.mb-xl-0.px-1.mb-4(data-aos="flip-up")
-        .tarjeta.tarjeta-flip.BGIMG09(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img17.png')})`}")
-            .tarjeta-flip__contenido.p-4
-              h5.text-center.text-white Boletines
-              p.text-center.text-white.mb-0 Sirven de soporte a los informes físicos. Son desagregaciones resumidas de los procesos, de resultados de la biblioteca, así como de aspectos propios de la actividad institucional, donde se utiliza información estadística y descriptiva que puede ser cuantitativa o cualitativa muy sintetizada. Pueden ser ocasionales o seriados, es decir con una frecuencia definida por la biblioteca.
-      .col-xl-3.col-sm-6.col-8.mb-xl-0.px-1.mb-4(data-aos="flip-up")
-        .tarjeta.tarjeta-flip.BGIMG08(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img18.png')})`}")
-            .tarjeta-flip__contenido.p-4
-              h5.text-center Difusión por página #[i web] o intranet
-              p.text-center.mb-0 Según el tipo de información y nivel de detalle, la comunicación puede ofrecerse desde la página #[i web] de la biblioteca (pública). Asimismo, la información exclusiva de la institución, para efecto de sus comunicaciones, coordinación y desarrollo de actividades y resultados internos de sus procesos, se puede divulgar desde la intranet, a la cual solo tendrán acceso los empleados y personas vinculadas con la empresa (privada).
-      .col-xl-3.col-sm-6.col-8.mb-xl-0.px-1.mb-4(data-aos="fade-left")
-        .tarjeta.tarjeta-flip.BGIMG09(@mouseover="indicadorTarjetaFlip = false")
-          .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor
-            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img19.png')})`}")
-            .tarjeta-flip__contenido.p-4
-              h5.text-center.text-white Validación de la información ofrecida
-              p.text-center.text-white.mb-0 En cada una de estas alternativas y técnicas para la presentación y difusión de la información de la biblioteca, se debe tener el visto bueno sobre su contenido, lo que obedece a un ejercicio interactivo y de coordinación en un comité de gestión y comunicaciones.
-
-
-
+    .BGIMG11.p-5.mb-4(data-aos="zoom-in")
+      SlyderA(tipo="b")
+        .row.align-items-center
+          .col-lg-6.order-lg-1.order-2
+            h5 Informes
+            p.mb-0 Todo informe debe presentar diferentes contenidos o capítulos, dependiendo del tipo de información por comunicar, indicando la metodología o proceso al cual refiere y si será un documento al público en general o para algunos usuarios, lo que es potestativo de la biblioteca por ser esta de carácter discrecional y fundamental para la toma de decisiones del futuro inmediato.
+          .col-lg-6.order-lg-2.order-1.mb-lg-0.mb-4
+            img(src="@/assets/curso/tema3/slide_01.jpg")
+        .row.align-items-center
+          .col-lg-6.order-lg-1.order-2
+            h5 Boletines
+            p.mb-0 Sirven de soporte a los informes físicos. Son desagregaciones resumidas de los procesos, de resultados de la biblioteca, así como de aspectos propios de la actividad institucional, donde se utiliza información estadística y descriptiva que puede ser cuantitativa o cualitativa muy sintetizada. Pueden ser ocasionales o seriados, es decir con una frecuencia definida por la biblioteca.
+          .col-lg-6.order-lg-2.order-1.mb-lg-0.mb-4
+            img(src="@/assets/curso/tema3/slide_02.jpg")
+        .row.align-items-center
+          .col-lg-6.order-lg-1.order-2
+            h5 Difusión por página #[i web] o intranet
+            p.mb-0 Según el tipo de información y nivel de detalle, la comunicación puede ofrecerse desde la página #[i web] de la biblioteca (pública). Asimismo, la información exclusiva de la institución, para efecto de sus comunicaciones, coordinación y desarrollo de actividades y resultados internos de sus procesos, se puede divulgar desde la intranet, a la cual solo tendrán acceso los empleados y personas vinculadas con la empresa (privada).
+          .col-lg-6.order-lg-2.order-1.mb-lg-0.mb-4
+            img(src="@/assets/curso/tema3/slide_03.jpg")
+        .row.align-items-center
+          .col-lg-6.order-lg-1.order-2
+            h5 Validación de la información ofrecida
+            p.mb-0 En cada una de estas alternativas y técnicas para la presentación y difusión de la información de la biblioteca, se debe tener el visto bueno sobre su contenido, lo que obedece a un ejercicio interactivo y de coordinación en un comité de gestión y comunicaciones.
+          .col-lg-6.order-lg-2.order-1.mb-lg-0.mb-4
+            img(src="@/assets/curso/tema3/slide_04.jpg")
 
 </template>
 
 <script>
 export default {
   name: 'Tema3',
-  data: () => ({
-    indicadorTarjetaFlip: true,
-  }),
+  data: () => ({}),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
