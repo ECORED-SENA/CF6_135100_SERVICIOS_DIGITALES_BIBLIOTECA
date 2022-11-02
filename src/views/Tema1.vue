@@ -39,7 +39,7 @@
             | Si se trata de variables, a su vez, discretas o continuas.
           li
             <i class="fas fa-chevron-right" style="color:#FD9827"></i>
-            | Si es nominal u ordinal (cuando es cualitativa) .
+            | Si es nominal u ordinal (cuando es cualitativa).
         p La información se registra en columnas con encabezados que describen la característica o variable, como se muestra en el siguiente ejemplo:
         .BGR3.p-4.mb-4
           .h5 <span style="color:#FD9827">Ejemplo:</span>
@@ -577,8 +577,8 @@
             td(style="background-color: #CDAF98;") 
 
     separador
-    #t_1_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.6 Análisis de tablas con agrupación de datos 
+    #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.5 Análisis de tablas con agrupación de datos 
 
     .BGM06.p-md-5.p-4
       .row.justify-content-center.align-items-center.mb-5

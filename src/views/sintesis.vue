@@ -7,7 +7,7 @@
       .col-1.px-0
         img(src="@/assets/curso/temas/img06.png")
       .col-11.p-3
-        p.mb-0 <span style="color:#fff">En este punto finaliza el estudio de los contenidos de este componente formativo “<span style="color:#FD9827 !important"><b>Informes estadísticos</b></span>”. Visualice y analice el esquema que se muestra a continuación y haga su propia síntesis. Registre los datos más importantes en su libreta personal de apuntes.</span><span style="color:#FD9827 !important"><b>¡Adelante!</b></span>
+        p.mb-0 <span style="color:#fff">En este punto finaliza el estudio de los contenidos de este componente formativo “<span style="color:#FD9827 !important"><b>Informes estadísticos</b></span>”. Visualice y analice el esquema que se muestra a continuación y haga su propia síntesis. Registre los datos más importantes en su libreta personal de apuntes.</span><span style="color:#FD9827 !important"><b> ¡Adelante!</b></span>
 
     .row.justify-content-center
       .col-lg-10.mb-5

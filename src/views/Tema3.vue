@@ -140,9 +140,9 @@
         img(src="@/assets/curso/tema3/img15.jpg")
         .BG14.p-4
           .h4 Interinstitucional
-          p Son los reportes por difundir a externos para promover el servicio bibliotecario, los contenidos disponibles, los servicios de acceso digital, las nuevas adquisiciones etc. Tienen un sentido más de promoción y servicio de la biblioteca a la comunidad o actores interesados.
+          p Son los reportes por difundir a externos para promover el servicio bibliotecario, los contenidos disponibles, los servicios de acceso digital, las nuevas adquisiciones, etc. Tienen un sentido más de promoción y servicio de la biblioteca a la comunidad o actores interesados.
 
-    p En la siguiente infografía se presentan las <span style="color:#FD9827">#[strong características de las técnicas de presentación y compilación de información que pueden ser usados en la biblioteca o cualquier organización o proyecto]</span>; se sugiere registrar en la libreta de apuntes los elementos más destacados.
+    p A continuación se presentan las <span style="color:#FD9827">#[strong características de las técnicas de presentación y compilación de información que pueden ser usados en la biblioteca o cualquier organización o proyecto]</span>; se sugiere registrar en la libreta de apuntes los elementos más destacados.
 
     .BGIMG11.p-5.mb-4(data-aos="zoom-in")
       SlyderA(tipo="b")
