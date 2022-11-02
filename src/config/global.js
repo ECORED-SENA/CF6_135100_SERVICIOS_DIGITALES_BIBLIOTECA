@@ -239,7 +239,7 @@ export default {
     },
     {
       referencia:
-        'Suárez, M. (2013). Cálculo del tamaño de la muestra. Investigación en Educación Médica, 2(8), 217-224.',
+        'Suárez, M. (2013). Cálculo del tamaño de la muestra en investigación en educación médica, 2(8), 217-224.',
       link: 'https://www.redalyc.org/pdf/3497/349733226007.pdf',
     },
     {
