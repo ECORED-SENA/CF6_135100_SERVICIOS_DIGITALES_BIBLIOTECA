@@ -160,7 +160,8 @@ export default {
     },
     {
       tema: 'Registro de información',
-      referencia: 'Catálogo de servicios digitales en las bibliotecas.',
+      referencia:
+        'Martínez, N., y Díaz, N. (2018). Catálogo de servicios digitales en las bibliotecas. CCB.',
       tipo: 'Documento',
       link:
         'https://www.ccbiblio.es/wp-content/uploads/catalogo_de_servicios_digitales.pdf',
